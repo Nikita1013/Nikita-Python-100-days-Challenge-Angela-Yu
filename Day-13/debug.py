@@ -37,11 +37,49 @@
 # print(total_words) 
 
 # #Use a Debugger
-def mutate(a_list):
-    b_list = []
-    for item in a_list:
-        new_item = item * 2
-        b_list.append(new_item)
-    print(b_list)
+# def mutate(a_list):
+#     b_list = []
+#     for item in a_list:
+#         new_item = item * 2
+#         b_list.append(new_item)
+#     print(b_list)
 
-mutate([1,2,3,5,8,13])
+# mutate([1,2,3,5,8,13])
+
+
+# challenge problem
+# number = int(input("Which number do you want to check?"))
+
+# if number % 2 == 0: #it was = and not ==
+#     print("This is an even number.")
+# else:
+#     print("This is an odd number.")
+
+# challenge - 2
+# year = int(input("Which year do you want to check?"))
+
+# if year % 2 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print("Leap year.")
+#         else:
+#             print("Not a leap year.")
+#     else:
+#         print("Leap Year")
+# else:
+#     print("Not Leap year.")
+
+
+
+
+# Fizz Buzz Challenge
+
+for number in range( 1, 101):
+    if number % 3 == 0 and number % 5 == 0:
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
